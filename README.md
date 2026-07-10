@@ -181,25 +181,6 @@ Skill：
     └── tencent-qq-practice.md
 ```
 
-## 小红书 skill 库说明
-
-我暂时没有在公开网页中查到“小红书 skill 库”的官方上传文档、开放入口或打包规范。
-
-如果你说的是小红书站内某个 AI skill/技能库/智能体市场，目前需要进一步确认：
-
-- 是否接受 Codex 风格的 `SKILL.md`
-- 是否需要转换成平台自己的提示词模板
-- 是否需要上传封面、简介、分类、示例对话
-- 是否有审核规则或外链限制
-
-和 GitHub 最大的区别大概率是：
-
-- GitHub 发布的是完整源码和安装文件
-- 小红书 skill 库更可能发布成平台内的“可使用技能/智能体”，需要按平台表单填写介绍、提示词、示例和封面
-
-所以当前建议是：先把 GitHub 仓库作为正式源文件，再根据小红书 skill 库的具体入口，把 `SKILL.md` 转成它要求的字段。
-
-更完整的转换说明见：[docs/xiaohongshu-skill-publish.md](docs/xiaohongshu-skill-publish.md)
 
 ## License
 
