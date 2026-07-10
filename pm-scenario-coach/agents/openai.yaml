@@ -1,0 +1,4 @@
+interface:
+  display_name: "PM 场景题教练"
+  short_description: "用轻量对话练产品经理场景题拆解"
+  default_prompt: "Use $pm-scenario-coach to practice a Tencent QQ product manager scenario interview question."
